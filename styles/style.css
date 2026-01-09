@@ -11,7 +11,7 @@
 }
 
 .btn {
-    padding: 12.5px 16px;
+    padding: 16.5px 16px;
     cursor: pointer;
     font-weight: 600;
     background-color: #469165;
@@ -56,20 +56,19 @@ header #hero-container {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    height: 674px;
+    height: auto;
     padding: 116px 120px 134px 120px;
 }
 
 header .hero-content {
-    border: 1px solid #ffffff;
     max-width: 1360px;
     padding: 0 295px;
     text-align: center;
     display: flex;
     flex-direction: column;
     align-items: center;
-
 }
+
 
 .hero-content .early-access {
     background-color: #ffffff;
@@ -81,6 +80,34 @@ header .hero-content {
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.hero-content .early-access .circle {
+    height: 16px;
+    width: 16px;
+    background-color: #46916525;
+    border-radius: 50%;
+    margin-right: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero-content .early-access .inner-circle {
+    height: 12px;
+    width: 12px;
+    background-color: #46916542;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.early-access .inner-circle .core-circle {
+    height: 6px;
+    width: 6px;
+    background-color: #469165;
+    border-radius: 50%;
 }
 
 .hero-content .early-access p {
@@ -110,4 +137,14 @@ header .hero-content {
     font-size: 18px;
     line-height: 24px;
     margin-bottom: 32px;
+}
+
+.hero-content .hero-cta {
+    display: flex;
+    gap: 16px;
+}
+
+.hero-content .hero-cta .btn-secondary {
+    background-color: transparent;
+    border: 2px solid #ffffff;
 }
