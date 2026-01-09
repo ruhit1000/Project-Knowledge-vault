@@ -214,3 +214,51 @@ header .hero-content {
     color: #627382;
     line-height: 20px;
 }
+
+#solution {
+    padding: 120px;
+}
+
+#solution .solution-container {
+    display: flex;
+    gap: 60px;
+}
+
+#solution .solution-container .solution-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.solution-container .solution-content .solution-header {
+    line-height: 20px;
+    font-weight: 500;
+    margin-bottom: 16px;
+    color: #469165;
+}
+
+.solution-container .solution-content h2 {
+    font-size: 48px;
+    color: #001931;
+    margin-bottom: 16px;
+}
+
+.solution-container .solution-content p {
+    color: #627382;
+    line-height: 20px;
+    margin-bottom: 40px;
+}
+
+.solution-container .solution-content ul {
+    list-style: none;
+}
+
+.solution-container .solution-content ul li {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    font-weight: 500;
+    line-height: 20px;
+    margin-bottom: 16px;
+    color: #001931;
+}
