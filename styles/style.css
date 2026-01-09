@@ -6,8 +6,8 @@
 /* shared style */
 
 .font-inter {
-  font-family: "Inter", sans-serif;
-  font-optical-sizing: auto;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
 }
 
 .btn {
@@ -42,7 +42,7 @@ header nav .logo-container {
     padding: 16px 0;
 }
 
-header nav .menu{
+header nav .menu {
     display: flex;
     align-items: center;
     list-style: none;
@@ -164,7 +164,7 @@ header .hero-content {
     transition: all 0.3s ease;
 }
 
-.hero-content .hero-cta  .btn-secondary:hover {
+.hero-content .hero-cta .btn-secondary:hover {
     border: none;
     background-color: #469165;
     box-shadow: 0px 12px 24px 0px #00000020;
