@@ -292,3 +292,35 @@ header .hero-content {
 .btn-primary {
     margin-bottom: 16px;
 }
+
+footer {
+    background-color: #001931;
+    padding: 120px 120px 30px 120px;
+    color: #ffffff;
+}
+
+footer .footer-content {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 80px;
+}
+
+footer .footer-content .social h4 {
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 16px;
+}
+
+footer .footer-content .social img {
+    height: 20px;
+    width: 20px;
+    margin-right: 16px;
+    cursor: pointer;
+}
+
+.footer-container .copyright-container {
+    text-align: center;
+    color: #FAFAFA;
+    padding-top: 30px;
+    border-top: 1px solid #e5e7eb2f;
+}
